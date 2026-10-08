@@ -4,7 +4,8 @@ return {
     picker = {
       sources = {
         explorer = {
-          hidden = true,
+          hidden = true,  --INFO: Fichier cacher.
+          ignored = true, --INFO: Fichier ingoré.
         },
       },
     },
